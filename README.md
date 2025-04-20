@@ -29,6 +29,7 @@ In this project, I have proven my ability to:
 
 
 Following Tasks were completed in this Project :
+
 **Task 1 :**
 
 Little Lemon needs to build a robust relational database system in MySQL in which they can store large amounts of data. use MySQL Workbench to create ER diagram and normalized it(1NF,2NF and 3NF).Then created the following tables. 
@@ -46,7 +47,11 @@ Little Lemon needs to build a robust relational database system in MySQL in whic
 
 **Staff information:** Including role and salary.
 
+
 To commit the work in the github , I have create a new branch in the git  and commit the changes to Git and push and pull the changes to the GitHub repository.
+file: 
+**databasecreation.sql**
+
 
 **Task 2 :
 Scenario
@@ -92,6 +97,19 @@ All these works are using the **MySQL Workbench Tool**
 
 I have commit the changes to **Git** and push and pull the changes to the **GitHub repository**.
 
+ stored procedure files :
+
+ **addbooking.sql**
+ 
+ **addvalidbooking.sql**
+ 
+ **checkavailability.sql**
+ 
+ **deletebooking.sql**
+ 
+ **updatebooking.sql**
+
+
  output files  :
  
   **addbooking.png**
@@ -125,7 +143,7 @@ the following charts are prepared to visulaize the analysis.
  
 **✼ Profit Line chart:** Create a line chart to show the sales trend from 2019 to 2022.chart will show the trend of sales from 2019 to 2022  as different colors for different years.
   
-** ✼Sales  Bubble chart:** Create a Bubble chart of sales for all customers. The chart will show the names of all customers. Once  roll over a bubble, the chart will  show the name, profit, and sale.
+**✼Sales  Bubble chart:** Create a Bubble chart of sales for all customers. The chart will show the names of all customers. Once  roll over a bubble, the chart will  show the name, profit, and sale.
  
 **✼ Cuisine Sales and Profits Bar chart:** To compare the sales of the three different cuisines sold at Little Lemon.Create a Bar chart that shows the sales of the Turkish, Italian, and Greek cuisines. The chart is used to display sales data for 2020, 2021, and 2022 only. Each bar should display the profit of each cuisine. 
 
@@ -135,7 +153,18 @@ All these works are using the **TABLEAU Tool**
 
 I have commit the changes to **Git** and push and pull the changes to the **GitHub repository**.
 
+output files:
+**Barchart.png**
 
+**linechartprofit.png**
+
+**saleprofit.png**
+
+**salesbubblechart.png**
+
+**singlecustomer-dashboard.png**
+
+**dashboard-sales.png**
 
 **Task 5 :**
 
@@ -157,6 +186,8 @@ I have done the following works to do the above work.
 
   ⌘ Cursor is used to do all the creation ,insertion,updation etc.
 
-All these works are using the **jupyter notebook Tool**
+All these works are using the **jupyter notebook Tool and python**
 
 I have commit the changes to **Git** and push and pull the changes to the **GitHub repository**.
+
+file: **capstone.ipynb**
