@@ -52,36 +52,7 @@ To commit the work in the github , I have create a new branch in the git  and co
 file: 
 **databasecreation.sql**
 
-
-**Task 2 :
-Scenario
-Little Lemon needs to retrieve data from their database. You can use your knowledge of MySQL to help them. As part of this task, you need to:
-
-Create a virtual table to summarize data.
-Use a JOIN statement to query data from multiple tables.
-Create a SQL statement with a subquery.
-Creating optimized queries using stored procedures and prepared statements.
-Little Lemon needs you to create a virtual table called OrdersView that focuses on OrderID, Quantity, and Cost columns within the Orders table for all orders with a quantity greater than 2.
-
-Little Lemon needs information from four tables on all customers with orders that cost more than $150. Extract the required information from each of the following tables by using the relevant JOIN clause:
-
-Customers table: The customer ID and full name.
-Orders table: The order id and cost.
-Menus table: The menu's name.
-MenusItems table: course name and starter name.
-The result set should be sorted by the lowest cost amount.
-Little Lemon needs you to find all menu items for which more than 2 orders have been placed. You can carry out this task by creating a subquery that lists the menu names from the menus table for any order quantity with more than 2.
-
-Little Lemon needs you to create a Stored Procedure that displays the maximum ordered quantity in the Orders table. Creating this procedure will allow Little Lemon to reuse the logic implemented in the procedure easily without retyping the same code over again and again to check the maximum quantity. You can call the procedure "GetMaxQuantity".
-
-Little Lemon needs you to help them create a prepared statement called "GetOrderDetail". This prepared statement will help to reduce the parsing time of queries. It will also help to secure the database from SQL injections.
-
-The prepared statement should accept one input argument, the CustomerID value, from a variable.
-The statement should return the order ID, the quantity, and the order cost from the Orders table. 
-Once you create the prepared statement, you can create a variable called id and assign it the value of 1.
-Then execute the prepared statement "GetOrderDetail".
-Create a stored procedure called "CancelOrder". Little Lemon wants to use this stored procedure to delete an order record based on the user input of the order ID. Creating this procedure will allow Little Lemon to cancel any order by specifying the order ID value in the procedure parameter without typing the entire SQL delete state**ment.
-**Task 3 :**
+**Task 2 :**
 
 Little Lemon’s data model must include a Bookings table so that they can store data for table bookings. I have  stored procedure that
 
@@ -126,7 +97,7 @@ I have commit the changes to **Git** and push and pull the changes to the **GitH
 
 
 
-**Task 4 :**
+**Task 3 :**
  
 Little Lemon has an Excel sheet file with thousands of records of data on orders made between 2019 and 2023. They want to analyze the sales data to examine how they can increase their profits by filter the data, analyze it, and create visual charts in the form of an interactive dashboard to help them understand their business performance.
  I have done the following:
@@ -166,7 +137,7 @@ output files:
 
 **dashboard-sales.png**
 
-**Task 5 :**
+**Task 4 :**
 
 Little Lemon needs you to help them build a functional Booking System from which they can manage their customer data. An integral part of a well-functioning system is the ability to query data. Little Lemon needs you to help them add the search functionality required to query their data. A database Client Python is used for this work.
 
