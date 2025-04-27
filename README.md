@@ -49,11 +49,80 @@ Little Lemon needs to build a robust relational database system in MySQL in whic
 
 
 To commit the work in the github , I have create a new branch in the git  and commit the changes to Git and push and pull the changes to the GitHub repository.
-file: 
+ file: 
+
 **databasecreation.sql**
 
-**Task 2 :**
+output files:
 
+**err.png**
+
+**forward.png**
+
+
+**Task 2 :**
+To Know about creating views, sub queries, stored procedures and prepared statements in the littlelemondb.
+
+**VIEW**
+
+* create a virtual table called OrdersView that focuses on OrderID, Quantity, and Cost columns within the Orders table for all orders with a quantity greater than 2.
+  
+  output file:
+  
+  **ordersviewoutput.png**
+  
+**JOIN**
+*  Extract the required information from each of the following tables by using the relevant JOIN clause: 
+1. Customers table: The customer ID and full name.
+2. Orders table: The order id and cost.
+3. Menus table: The menu's name.
+4. MenusItems table: course name and starter name.
+5. The result set should be sorted by the lowest cost amount.
+6. Orders that cost more than $150
+   
+   output files:
+   
+   **join.png**
+   
+   **ANY CONDITION**
+   
+* To find all menu items for which more than 2 orders have been placed and can  carry out this task by creating a subquery that lists the menu names from the menus table for any order quantity with more than 2.
+
+   output files:
+  
+   **task3any.png**
+  
+  **STORED-PROCEDURE**
+* To create a "GetMaxQuantity" Stored Procedure that displays the maximum ordered quantity in the Orders table.
+* Create a stored procedure called "CancelOrder" to delete an order record based on the user input of the order ID.
+  
+  output files:
+  
+   **cancelorder.png**
+  
+   **getmaxquantity.png**
+  
+  **PREPARED_STATEMENT**
+* To create a prepared statement called "GetOrderDetail”with the following conditions. 
+1. The prepared statement should accept one input argument, the CustomerID value, from a variable.
+2. The statement should return the order ID, the quantity, and the order cost from the Orders table. 
+3. Once you create the prepared statement, you can create a variable called id and assign it the value of 1.
+4. Then execute the prepared statement "GetOrderDetail".
+   
+  output files:
+  
+   **prepare.png**
+   
+   **get.png**
+   
+   **getdetail.png**
+
+   All these works are using the **MySQL Workbench Tool**
+
+I have commit the changes to **Git** and push and pull the changes to the **GitHub repository**.
+
+
+**Task 3 :**
 Little Lemon’s data model must include a Bookings table so that they can store data for table bookings. I have  stored procedure that
 
 ▶︎checks available bookings based on user input and a MySQL transaction that can be used to inform whether booking available or not
@@ -97,7 +166,7 @@ I have commit the changes to **Git** and push and pull the changes to the **GitH
 
 
 
-**Task 3 :**
+**Task 4 :**
  
 Little Lemon has an Excel sheet file with thousands of records of data on orders made between 2019 and 2023. They want to analyze the sales data to examine how they can increase their profits by filter the data, analyze it, and create visual charts in the form of an interactive dashboard to help them understand their business performance.
  I have done the following:
@@ -137,7 +206,7 @@ output files:
 
 **dashboard-sales.png**
 
-**Task 4 :**
+**Task 5 :**
 
 Little Lemon needs you to help them build a functional Booking System from which they can manage their customer data. An integral part of a well-functioning system is the ability to query data. Little Lemon needs you to help them add the search functionality required to query their data. A database Client Python is used for this work.
 
